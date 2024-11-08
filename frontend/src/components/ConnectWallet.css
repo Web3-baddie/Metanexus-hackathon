@@ -1,0 +1,88 @@
+/* Styles for the Connect Wallet Container */
+.connect-wallet-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  /* Center items vertically */
+    align-items: center;      /* Center items horizontally */
+    min-height: 100vh;       /* Minimum height of the viewport */
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+    color: #ffffff;          /* Text color */
+    text-align: center;      /* Center text */
+    padding: 20px;           /* Padding for the container */
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5); /* Shadow for depth */
+    border-radius: 15px;     /* Rounded corners */
+    width: 90%;              /* Width of the container */
+    max-width: 400px;        /* Max width to limit size */
+    margin: auto;            /* Center container */
+    overflow: hidden;        /* Prevent overflow */
+}
+
+/* Styles for the Title of the Wallet */
+.wallet-title {
+    font-size: 2rem;           /* Font size for title */
+    margin-bottom: 0.5rem;     /* Margin below the title */
+    font-family: 'Dancing Script', cursive; /* Font style */
+}
+
+/* Styles for the Note under the Title */
+.wallet-note {
+    font-size: 1rem;           /* Font size for note */
+    margin-bottom: 1.5rem;     /* Margin below the note */
+}
+
+/* Styles for the Wallet Options */
+.wallet-options {
+    display: flex;              /* Use flexbox for layout */
+    flex-direction: column;     /* Stack options vertically */
+    gap: 1rem;                 /* Space between wallet options */
+}
+
+/* Styles for each Wallet Option */
+.wallet-option {
+    display: flex;              /* Use flexbox for layout */
+    flex-direction: column;     /* Stack elements vertically */
+    align-items: center;        /* Center items horizontally */
+    padding: 1rem;             /* Padding for wallet option */
+    border: 2px solid #6c27db; /* Border color */
+    border-radius: 10px;       /* Rounded corners */
+    cursor: pointer;            /* Pointer cursor on hover */
+    transition: transform 0.3s, box-shadow 0.3s; /* Smooth hover effect */
+    background-color: rgba(255, 255, 255, 0.1); /* Slightly transparent background */
+}
+
+/* Styles for Hover Effect on Wallet Options */
+.wallet-option:hover {
+    transform: scale(1.05); /* Scale effect on hover */
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.5); /* Shadow effect on hover */
+}
+
+/* Styles for Wallet Icons */
+.wallet-icon {
+    width: 60px;               /* Smaller size for wallet icons */
+    height: 60px;              /* Smaller size for wallet icons */
+    margin-bottom: 0.5rem;     /* Space between icon and name */
+}
+
+/* Styles for Wallet Names */
+.wallet-name {
+    font-size: 1.5rem;         /* Larger font size for wallet names */
+    font-weight: bold;         /* Make the wallet names bold */
+    margin-bottom: 0.5rem;     /* Space below the name */
+}
+
+/* Styles for the Connect Button */
+.connect-button {
+    background-color: #6c27db; /* Button color */
+    color: #ffffff;            /* Button text color */
+    border: none;              /* Remove border */
+    border-radius: 10px;      /* Rounded corners */
+    padding: 0.75rem 1.5rem;   /* Padding for button */
+    font-size: 1rem;           /* Font size for button text */
+    cursor: pointer;           /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Smooth background change */
+}
+
+/* Styles for Hover Effect on Connect Button */
+.connect-button:hover {
+    background-color: #5b1da7; /* Darker shade on hover */
+}
